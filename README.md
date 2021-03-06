@@ -1,15 +1,23 @@
 # Biomorphic AI
 
-D. O. Chergikalo, D.A. Klyushin1
-1 Faculty of Computer Science and Cybernetics, Taras Shevchenko National University of Kyiv, Kyiv, Ukraine
-dokmed5@gmail.com
+D. O. Chergikalo,
+denischergicalo@gmail.com
+
+Человек постоянно учиться у природы: генетические алгоритмы, алго-ритмы нейросетей, роевой интелект и т.д.
+Самые эффективные методы ИИ являются эффективным упрощением и моделированием процессов в природе.
+Но к сожелению специалисты часто хорошо разбираются только в не-скольких моделях, об остальных они только слышали, от статей на другие темы у них разбегаються глаза и они все равно выхватывают только то что касаеться их темы.
+Для того чтобы каждый смог раскрыть для себя такую нелегкую тему как биоморфный ИИ мы предлагаем формат иерархии : тема –> статья –> при-менение –> плюсы и минусы.
+
+Для демонстрации того как это работает мы покажем описание положи-тельных применений связи алгоритмов с их бтологическими корнями.
+
+БиоморфныйИИ 
+| Применение | плюсы | минусы |
+|----------------|:---------:|----------------:|
+| Расмотрение несколько вариантов вычислительного упрощения изна-чального алгоритма соблюдая соответствие биологическим корням|  Потен-циальное увеличение эффективности| Возможное сужение области примене-ния |
+| Расмотрение нескольких вариантов как сделать алгоритм более подхо-дящим к биологическим корням | возможность моделирования некоторых биологических процесов, улучшение адаптивности алгоритма к «природ-ным» данным | Возможное понижение эффективности |
+
 
 ## Abstract. 
-Развитие ИИ 
-| Приминение | плюси | минуси |
-|----------------|:---------:|----------------:|
-| По левому краю | По центру | По правому краю |
-| текст | текст | текст |
 
 In this chapter, we will consider modern advances in the field of AI develop-ment and their biological meaning. Critical cell reconstruction of the brain by the BlueBrain project is criticized. The direct presentation of some methods of AI as biological processes is also formulated, which, possibly, will make it possible in the future to improve these methods, or to make standard those modifications of which we will discuss. Using the terms of teaching neural networks, the teacher expresses the complex internal mechanisms of intuition and unconscious infor-mation processing. In addition, as a “game with reality” according to the Monte Carlo method, conscious thinking is modeled, including common sense and plan-ning. Based on the conducted analogies, improvements in AI are proposed that will make the complexity of his thinking similar in complexity to human and lead to the creation of a strong AI.
 
