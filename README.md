@@ -5,7 +5,12 @@ D. O. Chergikalo, D.A. Klyushin1
 dokmed5@gmail.com
 
 ## Abstract. 
-In this chapter, we will consider modern advances in the field of AI development and their biological meaning. Critical cell reconstruction of the brain by the BlueBrain project is criticized. The direct presentation of some methods of AI as biological processes is also formulated, which, possibly, will make it possible in the future to improve these methods, or to make standard those modifications of which we will discuss. Using the terms of teaching neural networks, the teacher expresses the complex internal mechanisms of intuition and unconscious infor-mation processing. In addition, as a “game with reality” according to the Monte Carlo method, conscious thinking is modeled, including common sense and plan-ning. Based on the conducted analogies, improvements in AI are proposed that will make the complexity of his thinking similar in complexity to human and lead to the creation of a strong AI.
+Развитие ИИ 
+| Приминение | плюси | минуси |
+|----------------|:---------:|----------------:|
+| По левому краю | По центру | По правому краю |
+| текст | текст | текст |
+In this chapter, we will consider modern advances in the field of AI develop-ment and their biological meaning. Critical cell reconstruction of the brain by the BlueBrain project is criticized. The direct presentation of some methods of AI as biological processes is also formulated, which, possibly, will make it possible in the future to improve these methods, or to make standard those modifications of which we will discuss. Using the terms of teaching neural networks, the teacher expresses the complex internal mechanisms of intuition and unconscious infor-mation processing. In addition, as a “game with reality” according to the Monte Carlo method, conscious thinking is modeled, including common sense and plan-ning. Based on the conducted analogies, improvements in AI are proposed that will make the complexity of his thinking similar in complexity to human and lead to the creation of a strong AI.
 
 Keywords: Artificial Intelligence, Biomorphic AI, Artificial Intuition, Strong AI.
 
@@ -95,17 +100,17 @@ https://arxiv.org/pdf/1911.08265.pdf
 
 
 Zweig A, Weinshall D (2013) Hierarchical Regularization Cascade for Joint Learning. In:
-Proceedings of the 30 th International Conference on Machine Learning, Atlanta, Georgia,
+Proceedings of the 30 th International Conference on Machine Learning, At-lanta, Georgia,
 USA, 2013.Part 2, pp. 1074–1082.
 
 Описанный выше подход может найти полезные применения в области многозадачного обучения. Задачи обычно связаны друг с другом  - и объ-единяются в иерархию, подобный подход может дать большое улучшение. 
 
-Jawanpuria, P., & Saketha Nath, J., (2012) A Convex Feature Learning Formulation for Latent Task Structure Discovery. http://icml.cc/2012/papers/90.pdf
+Jawanpuria, P., & Saketha Nath, J., (2012) A Convex Feature Learning Formu-lation for Latent Task Structure Discovery. http://icml.cc/2012/papers/90.pdf
 
 Даже если какую-то широкую тему не удается разбить на подразделы – задачи в рамках этой темы бессвязны относительно друг друга, в случае связанности она при правильном выделении структуры подзадач может разбиться.
 
-Romera-Paredes et al. (2012) Exploiting Unrelated Tasks in Multi-Task Learning. Proceedings
-of the Fifteenth International Conference on Artificial Intelligence and Statistics, PMLR
+Romera-Paredes et al. (2012) Exploiting Unrelated Tasks in Multi-Task Learn-ing. Proceedings
+of the Fifteenth International Conference on Artificial Intelligence and Statis-tics, PMLR
 22:951-959
 
 то даже в этом случае можно все равно получить хорошое улучшение общего обучения по сравнению с отдельным обучением для каждой задачи, как причину этого можно назвать более хорошие выделение абстрактного навыка анализировать который уже при различных умениях по разному ак-туализируется.
