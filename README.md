@@ -1,21 +1,21 @@
-#Biomorphic AI
+# Biomorphic AI
 
 D. O. Chergikalo, D.A. Klyushin1
 1 Faculty of Computer Science and Cybernetics, Taras Shevchenko National University of Kyiv, Kyiv, Ukraine
 dokmed5@gmail.com
 
-##Abstract. 
+## Abstract. 
 In this chapter, we will consider modern advances in the field of AI development and their biological meaning. Critical cell reconstruction of the brain by the BlueBrain project is criticized. The direct presentation of some methods of AI as biological processes is also formulated, which, possibly, will make it possible in the future to improve these methods, or to make standard those modifications of which we will discuss. Using the terms of teaching neural networks, the teacher expresses the complex internal mechanisms of intuition and unconscious infor-mation processing. In addition, as a “game with reality” according to the Monte Carlo method, conscious thinking is modeled, including common sense and plan-ning. Based on the conducted analogies, improvements in AI are proposed that will make the complexity of his thinking similar in complexity to human and lead to the creation of a strong AI.
 
 Keywords: Artificial Intelligence, Biomorphic AI, Artificial Intuition, Strong AI.
 
-##Setting the scene
+## Setting the scene
 Artificial intelligence technologies are increasingly moving away from where they started — from modeling human behavior. Currently, quite a few people use processes associated with neural networks of the brain to implement software, and all funding depends on the specific tasks performed on time.
 If to take into account the generally accepted point of view “Everything is complicated,” as well as bitter experience in this area (for example, two AI win-ters), then we have no choice but to accept status quo, and slowly make small steps improving existing algorithms in order to increase profit for various compa-nies by increasing the accuracy of methods.
 But is the brain really so complex to simulate it as a black box? Below we de-scribe what technologies applicable to create humanoid AI have appeared recent-ly. But before that, we emphasize that the practical ideas of AI undergo the same evolution as the behavior and brain of animals.
 Scientists are constantly improving old models, combining methods, experi-menting with their models, choosing the best ones, and when it comes to practice, those models are selected that are best suited for specific tasks, finding their niche, so AI ideas have even more similarities with biology than the researchers them-selves might suppose at first glance. In the next subsection, “The Parallel Path of Smart Technologies and the Recreating of Biological Processes,” we will discuss just that.
 
-##The Parallel Path of Smart Technologies and the Recreating of Biological Processes
+## The Parallel Path of Smart Technologies and the Recreating of Biological Processes
 
 Srivastava N, Hinton G, Krizhevsky A et al. (2014) Dropout: a simple way to prevent neural
 networks from overfitting. J Mach Learn Res 15 (1):1929–1958
@@ -61,10 +61,10 @@ About primary treatment for vision, hearing, etc. we will tell in “Primary pro
 We believe that transferring the useful properties of natural neural networks to computer models is an optimal resource option, and we also assume that while maintaining the qualitative properties of the neural network, its other more com-plex properties are also preserved. Researchers have shown that RSN has many more complex properties that they consider to be similar to human ones.
 It seems to us that the study of such computer models will help not only to create AI, but to simulate various brain diseases and to study their effect on AI, which may prompt researchers to solve real medical problems with the brain by studying them on the models.
 
-##Criticism of detailed brain design projects
+## Criticism of detailed brain design projects
 Those who are interested in the idea of modeling precisely neural networks with similar properties to real ones, as the closest of the classical general models, we suggest exploring the LSTM model and the rhythms in it, especially with regard to long-term information. But if we talk about the closest of the simply classical models, then we propose to consider the rhythms and similar biological character-istics for the BELBIC model. This model we will discuss in the subsection “Over-view of basic algorithms for AI and their achievement”.
 
-##Overview of basic algorithms for AI and their achievements 
+## Overview of basic algorithms for AI and their achievements 
 AlphaZero is a program that, learning from scratch, has won all the people and the rest of the algorithms in chess, segos and Go. Go’s game runs on board 1919 and generates a huge number of options. Conventional algorithms were powerless and reached the maximum level of average amateur in Go. AlphaGo was the first program to defeat the professional, and even the best player in Go. But it was un-usual only because of the convolutional neural network as a function of evaluat-ing and determining profitable moves. Its algorithm could be compared with an intuitive assessment of the situation on the board by a person, i.e. with his trained unconscious appreciation. In combination with the Monte Carlo method, this al-lows successfully simulating the game thinking of a person (we’ll talk about this in more detail in the subsection “AlphaZero Thedes as a Base for AI Algorithms”)
 
 
@@ -82,7 +82,7 @@ The most advanced of these models is the BELBIC model (Beheshti et al., 2010). I
 
 
 
-##Общие принципы Proposed Architecture
+## Общие принципы Proposed Architecture
 
 Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model 
 https://arxiv.org/pdf/1911.08265.pdf
@@ -90,7 +90,7 @@ https://arxiv.org/pdf/1911.08265.pdf
 Сам процесс выделения игры и “мыслительная” симуляция случайных игр с реальностью – реализован в улучшении AlphaZero – MuZero.
 модель реальности в ней вкладывается в - hidden state – в нашей модели за нее отвечает “цифровой гиппокамп”.
 
-##Multi-task learning
+## Multi-task learning
 
 
 
