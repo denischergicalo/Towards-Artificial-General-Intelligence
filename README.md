@@ -10,6 +10,7 @@ dokmed5@gmail.com
 |----------------|:---------:|----------------:|
 | По левому краю | По центру | По правому краю |
 | текст | текст | текст |
+
 In this chapter, we will consider modern advances in the field of AI develop-ment and their biological meaning. Critical cell reconstruction of the brain by the BlueBrain project is criticized. The direct presentation of some methods of AI as biological processes is also formulated, which, possibly, will make it possible in the future to improve these methods, or to make standard those modifications of which we will discuss. Using the terms of teaching neural networks, the teacher expresses the complex internal mechanisms of intuition and unconscious infor-mation processing. In addition, as a “game with reality” according to the Monte Carlo method, conscious thinking is modeled, including common sense and plan-ning. Based on the conducted analogies, improvements in AI are proposed that will make the complexity of his thinking similar in complexity to human and lead to the creation of a strong AI.
 
 Keywords: Artificial Intelligence, Biomorphic AI, Artificial Intuition, Strong AI.
