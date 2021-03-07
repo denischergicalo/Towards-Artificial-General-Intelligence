@@ -59,6 +59,13 @@ It is worth noting that convolutional neural networks are also quite close to re
 Girshick R (2015) Fast R-CNN. In: The IEEE International Conference on Computer Vision
 (ICCV), pp. 1440–1448.
 
+общие минусы: не самый быстрый метод, сложная архитектура(сложнее обучать вместе с другими нейросетями)
+| Применение | плюсы | минусы |
+|----------------|:---------:|----------------:|
+| Локализация маленьких обьектов| работает достаточно хорошо|  |
+| Локализация средних обьектов | работает достаточно хорошо|  |
+| Определение границ обьекта | работает достаточно хорошо |  |
+
 But for a person’s hearing and vision, different architectures are provided. On one hand, hearing is a sequential model of neural networks that leads from sen-sors to the analysis of complex sound signals and words, on other hand vision is divided into two directions: one leads to an analysis of the image itself, and the other leads to location where this image is.
 This is fully consistent with the architecture this of one of the main neural net-work architectures for image detection.
 
@@ -66,29 +73,63 @@ Ren S, He K, Girshick R, Sun J (2015) Faster R-CNN: Towards Real-Time Object Det
 with Region Proposal Networks. In: Advances in neural information processing systems, pp.
 91–99.
 
+общие минусы: немного сложная архитектура(немного сложнее обучать вместе с другими нейросетями)
+| Применение | плюсы | минусы |
+|----------------|:---------:|----------------:|
+| Локализация маленьких обьектов| | работает не очень хорошо |
+| Локализация средних обьектов | работает достаточно хорошо|  |
+| Определение границ обьекта |  | работает не сильно точно |
+
 A similar process always occurs in a person, when he, analyzing the image, can focus attention on only one thing. This process is closer to another of the main neural network architectures for pattern detection.
 
+
+George D et al. (2017) A generative vision model that trains with high data efficiency and breaks
+text-based CAPTCHAs. Science, 358(6368), art. no. eaag2612.
+| Применение | плюсы | минусы |
+|----------------|:---------:|----------------:|
+| Определение иерархии обьектов| работает достаточно хорошо| слишком долго работает из-за чего пока неэффективно применять к реальным изображениям |
+| Распознавание обьектов системы обьектов | работает достаточно хорошо| работает только для системы простых обьектов |
 
 In addition, a person has his own maxpool layer, but it works harder than choosing a maximum from several neighbors. There is a choice from an object-oriented structure, due to which an unconscious understanding arises where to choose an object. This corresponds to the self-organization described above, only for significant correlations with more distant neurons. However, if this choice is correctly implemented programmatically, then the programs become more re-sistant to deformation and changes in the picture that they analyze.
 For example, Vicarious, an artificial intelligence company, has developed Re-cursive Cortical Network (RCN) technology for biologically plausible image anal-ysis. Their algorithm, unlike its predecessors, does not reduce accuracy when the text is deformed, and almost does not decrease when using various effects and styles to complicate the text and overlap it with other objects. This will be dis-cussed in more detail in the subsection “Overview of basic algorithms for AI and their achievements”.
 About primary treatment for vision, hearing, etc. we will tell in “Primary pro-cessing of sensory signals”.
 We believe that transferring the useful properties of natural neural networks to computer models is an optimal resource option, and we also assume that while maintaining the qualitative properties of the neural network, its other more com-plex properties are also preserved. Researchers have shown that RSN has many more complex properties that they consider to be similar to human ones.
 It seems to us that the study of such computer models will help not only to create AI, but to simulate various brain diseases and to study their effect on AI, which may prompt researchers to solve real medical problems with the brain by studying them on the models.
+Another example of the Recursive Cortical Network, mentioned earlier, made it possible to correctly guess Captha in 66.6% of cases, and after determining the style and additional training — 90%. Moreover, this network uses only 5000 ex-amples of resolved examples and a small number of layers. It simulates the work of the primary visual cortex. A description of the work and experiments with this neural network is given in this paper. What we called the connection with more distant neurons in this article is called the lateral connection..
 
 
 ## Overview of basic algorithms for AI and their achievements 
-AlphaZero is a program that, learning from scratch, has won all the people and the rest of the algorithms in chess, segos and Go. Go’s game runs on board 1919 and generates a huge number of options. Conventional algorithms were powerless and reached the maximum level of average amateur in Go. AlphaGo was the first program to defeat the professional, and even the best player in Go. But it was un-usual only because of the convolutional neural network as a function of evaluat-ing and determining profitable moves. Its algorithm could be compared with an intuitive assessment of the situation on the board by a person, i.e. with his trained unconscious appreciation. In combination with the Monte Carlo method, this al-lows successfully simulating the game thinking of a person (we’ll talk about this in more detail in the subsection “AlphaZero Thedes as a Base for AI Algorithms”)
+
+AlphaGo was the first program to defeat the professional, and even the best player in Go. But it was un-usual only because of the convolutional neural network as a function of evaluat-ing and determining profitable moves. Its algorithm could be compared with an intuitive assessment of the situation on the board by a person, i.e. with his trained unconscious appreciation. In combination with the Monte Carlo method, this al-lows successfully simulating the game thinking of a person (we’ll talk about this in more detail in the subsection “AlphaZero Thedes as a Base for AI Algorithms”)
 
 
-The next version of the AlphaGo program, AlphaGo Zero, learned to train its intuition not on examples of other people's games, but on examples of games with itself. This not only saved it from dependence on external data, but also sig-nificantly improved the program. AlphaZero program can in a matter of hours learn to play any game and become the best in it. It itself adapt to the game, which makes it quite flexible and easily customizable to different types of games.
+AlphaGo Zero
+
+The next version of the AlphaGo program, AlphaGo Zero, learned to train its intuition not on examples of other people's games, but on examples of games with itself. This not only saved it from dependence on external data, but also sig-nificantly improved the program. 
 
 
-Another example of the Recursive Cortical Network, mentioned earlier, made it possible to correctly guess Captha in 66.6% of cases, and after determining the style and additional training — 90%. Moreover, this network uses only 5000 ex-amples of resolved examples and a small number of layers. It simulates the work of the primary visual cortex. A description of the work and experiments with this neural network is given in (George et al. 2017). What we called the connection with more distant neurons in this article is called the lateral connection..
+AlphaZero
+| Применение | плюсы | минусы |
+|----------------|:---------:|----------------:|
+| Самообучение техникам в настольных играх| выводит новые техники игры на которых могут поучиться люди| Сложность восприятие техник для непрофесионалов |
+| Обучение на играх которые симулируют полезные модели | может дать новые методы конкуренции и продвижения| методы сложно понять полностью |
+| Победы в играх | Опыт для чемпионов мира соревнования с очень сильным протвником, зрелищность на начальных этапах | После постоянных побед машин зрелищность падает |
 
+AlphaZero is a program that, learning from scratch, has won all the people and the rest of the algorithms in chess, segos and Go. Go’s game runs on board 1919 and generates a huge number of options. Conventional algorithms were powerless and reached the maximum level of average amateur in Go. 
+AlphaZero program can in a matter of hours learn to play any game and become the best in it. It itself adapt to the game, which makes it quite flexible and easily customizable to different types of games.
+
+
+Beheshti Z et al. (2010) A Review of Emotional Learning And It’s Utilization in Control
+Engineering. Int. J. Advance. Soft Comput. Appl., 2(2):191–208.
+| Применение | плюсы | минусы |
+|----------------|:---------:|----------------:|
+| Симулирование живых существ| Хорошая для симулирования небольшой группы простых животных| со сложностями описывает поведение умных жывотных; вычислительно сложная для симуляции большого количества особей|
+| Моделирование эмоций | Хорошо симулирует эмоциональные реации жывотных и человека| не включает в себя планирование жывотными а уж тем более сознание |
+| Динамическая адаптация | Вычислительно небольшая модель | Небходимость совмещать с более стабильными алгоритмами |
 
 Those who are interested in the idea of modeling precisely neural networks with similar properties to real ones, as the closest of the classical general models, we suggest exploring the LSTM model and the rhythms in it, especially with regard to long-term information. But if we talk about the closest of the simply classical models, then we propose to consider the rhythms and similar biological character-istics for the BELBIC model.
 The emotional component of learning is important for our model as it helps to filter and remember important information. Models of emotional brain training are called BEL models (Brain Emotional Learning). Unfortunately, at the mo-ment we do not know any complex models for emotional learning that would adapt to complex mechanisms of thinking.
-The most advanced of these models is the BELBIC model (Beheshti et al., 2010). It has practical applications for real-time control systems, since it is com-putationally efficient and at the same time gives quite acceptable results (Pack-age with BELBIC controller, 2020). It is similar to an RNN network, which pre-dicts the necessary action, which should be chosen, but has one big difference from it — the network learns directly during operation, thus constantly adapting to new conditions. Models of emotional thinking model the functioning of the limbic system and their relationship with other areas during emotional perception and memorization.
+The most advanced of these models is the BELBIC model (Beheshti et al., 2010). It has practical applications for real-time control systems, since it is com-putationally efficient and at the same time gives quite acceptable results (Package with BELBIC controller, 2020). It is similar to an RNN network, which pre-dicts the necessary action, which should be chosen, but has one big difference from it — the network learns directly during operation, thus constantly adapting to new conditions. Models of emotional thinking model the functioning of the limbic system and their relationship with other areas during emotional perception and memorization.
 
 
 
@@ -96,6 +137,16 @@ The most advanced of these models is the BELBIC model (Beheshti et al., 2010). I
 
 Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model 
 https://arxiv.org/pdf/1911.08265.pdf
+
+оющие минусы: нестабильное обучение, для того чтобы довести до найвисшего уровня уровня нужно чтобы был набор нейросетей-игроков повышающегося уровня сложности для того чтобы сама нейросеть смогла постепенно выиигрывая одного за другим дойти до пика возможного уровня
+| Применение | плюсы | минусы |
+|----------------|:---------:|----------------:|
+| Самообучение техникам в любых играх | выводит новые техники игры на которых могут поучиться люди| Сложность восприятия техник для непрофесионалов |
+| Использование для получения новых лекарств в медицине | высокая скорость работы | Необходимоть безопасности и контролироля рисков |
+| Ислользование  компьютерных или настольных играх | Опыт для чемпионов мира соревнования с очень сильным протвником, зрелищность на начальных этапах | После постоянных побед машин зрелищность падает |
+| Симуляция поведения человека | Учитивает планирование и обучаеться правильно упрощать свое восприятие | Не учитываються особености человеческих эмоций и поведения |
+| Симуляция других полезных моделей | может дать новые методы конкуренции и продвижения| методы сложно понять полностью |
+
 
 Сам процесс выделения игры и “мыслительная” симуляция случайных игр с реальностью – реализован в улучшении AlphaZero – MuZero.
 модель реальности в ней вкладывается в - hidden state – в нашей модели за нее отвечает “цифровой гиппокамп”.
@@ -107,6 +158,10 @@ https://arxiv.org/pdf/1911.08265.pdf
 Zweig A, Weinshall D (2013) Hierarchical Regularization Cascade for Joint Learning. In:
 Proceedings of the 30 th International Conference on Machine Learning, Atlanta, Georgia,
 USA, 2013.Part 2, pp. 1074–1082.
+| Применение | плюсы | минусы |
+|----------------|:---------:|----------------:|
+| Определение иерархии информации| предотвращает переобучение, выделяет систему в информации| большее время, субьективность выделяемой иерархии |
+| Выделение н | работает достаточно хорошо| работает только для системы простых обьектов |
 
 Описанный выше подход может найти полезные применения в области многозадачного обучения. Задачи обычно связаны друг с другом  - и объ-единяются в иерархию, подобный подход может дать большое улучшение. 
 
