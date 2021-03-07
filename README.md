@@ -135,6 +135,9 @@ Those who are interested in the idea of modeling precisely neural networks with 
 The emotional component of learning is important for our model as it helps to filter and remember important information. Models of emotional brain training are called BEL models (Brain Emotional Learning). Unfortunately, at the mo-ment we do not know any complex models for emotional learning that would adapt to complex mechanisms of thinking.
 The most advanced of these models is the BELBIC model (Beheshti et al., 2010). It has practical applications for real-time control systems, since it is com-putationally efficient and at the same time gives quite acceptable results (Package with BELBIC controller, 2020). It is similar to an RNN network, which pre-dicts the necessary action, which should be chosen, but has one big difference from it — the network learns directly during operation, thus constantly adapting to new conditions. Models of emotional thinking model the functioning of the limbic system and their relationship with other areas during emotional perception and memorization.
 
+additional literature:
+[D. Shahmirzadi, Computational Modeling Of The Brain Limbic System And Its Application In Control Engineering, Master dissertation, Texas A&M University, U.S.A. , (2005).](http://i-csrs.org/Volumes/ijasca/vol.2/vol.2.2.3.July.10.pdf)
+[J. Moren, C. Balkenius, "A Computational Model of Emotional Learning in the Amygdala", Cybernetics and Systems, Vol. 32, No. 6, (2000), pp. 611-636.](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.1.6046&rep=rep1&type=pdf)
 
 
 ## Общие принципы Proposed Architecture
@@ -153,6 +156,13 @@ The most advanced of these models is the BELBIC model (Beheshti et al., 2010). I
 
 Сам процесс выделения игры и “мыслительная” симуляция случайных игр с реальностью – реализован в улучшении AlphaZero – MuZero.
 модель реальности в ней вкладывается в - hidden state – в нашей модели за нее отвечает “цифровой гиппокамп”.
+
+additional literature:
+[Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Andrei A Rusu, Joel Veness, Marc G Bellemare, Alex
+Graves, Martin Riedmiller, Andreas K Fidjeland, Georg Ostrovski, et al. Human-level control through deep
+reinforcement learning. Nature, 518(7540):529, 2015.](https://pubmed.ncbi.nlm.nih.gov/25719670/)
+[Matej Moravcık, Martin Schmid, Neil Burch, Viliam Lisy, Dustin Morrill, Nolan Bard, Trevor Davis, Kevin Waugh, Michael Johanson, and Michael Bowling. Deepstack: Expert-level artificial intelligence in heads-up no-limit poker. Science, 356(6337):508–513, 2017.](https://arxiv.org/pdf/1701.01724.pdf)
+[ M.H.S. Segler, et al. Learning to plan chemical syntheses ArXiv (2017)](https://arxiv.org/pdf/1708.04202.pdf)
 
 ## Multi-task learning
 
@@ -175,6 +185,9 @@ USA, 2013.Part 2, pp. 1074–1082.](http://proceedings.mlr.press/v28/zweig13.htm
 | Разделение признаков в иерархии | наличие четкого графа указывающего на иерархию;Возможность эфективно дообучить алгоритм к новому отвлевлению без перестройки иерархии| Сложность єффективного расширения алгоритма на большое количество новых задач|
 
 Даже если какую-то широкую тему не удается разбить на подразделы – задачи в рамках этой темы бессвязны относительно друг друга, в случае связанности она при правильном выделении структуры подзадач может разбиться.
+
+additional literature:
+[Widmer, C., Toussaint, N., Altun, Y., and Ratsch, G. Inferring latent task structure for multi-task learning by multiple kernel learning. BMC Bioinformatics, 11:S5, 2010.](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-11-S8-S5)
 
 [Romera-Paredes et al. (2012) Exploiting Unrelated Tasks in Multi-Task Learning. Proceedings
 of the Fifteenth International Conference on Artificial Intelligence and Statistics, PMLR
