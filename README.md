@@ -14,7 +14,7 @@ denischergicalo@gmail.com
 | Применение | плюсы | минусы |
 |----------------|:---------:|----------------:|
 | Расмотрение несколько вариантов вычислительного упрощения изначального алгоритма соблюдая соответствие биологическим корням|  Потенциальное увеличение эффективности| Возможное сужение области применения |
-| Расмотрение нескольких вариантов как сделать алгоритм более подходящим к биологическим корням | возможность моделирования некоторых биологических процесов, улучшение адаптивности алгоритма к «природным» данным | Возможное понижение эффективности |
+| Расмотрение нескольких вариантов как сделать алгоритм более подходящим к биологическим корням | возможность моделирования некоторых биологических процесов; Улучшение адаптивности алгоритма к «природным» данным | Возможное понижение эффективности |
 
 
 ## Abstract. 
@@ -42,6 +42,11 @@ As is well known, neural networks have recently undergone a period of inten-sive
 
 Masters D, Luschi C (2018) Revisiting small batch training for deep neural networks.
 https://arxiv.org/pdf/1804.07612.pdf . Accessed at 22 February, 2020.
+| Применение | плюсы | минусы |
+|----------------|:---------:|----------------:|
+| Виборка из 2-4 екземпляров| Иногда может дать более обобщеный; Устойчивый результат сравнительно с другими вариантами использования| Большее увеличение времени на эпоху; Риск получения неудволетворительного результата |
+| Виборка из 4-16 екземпляров | Обычно имеет оптимум по времени обучения до конвергенции и оптимум в улучшение эффективности| Небольшое увеличение трат времени на эпоху |
+| Виборка из 16+ екземпляров | Меньшее время на эпоху; Иногда, при не сильно чуствительных данных может дать оптимальный результат | Менее устойчывый результат |
 
 The artificial neural networks that we program usually develop normally in iso-lation from the outside world. They have the opportunity to learn all the variety of information at the same time, without intermediate tests of performance. On the contrary, a person needs to develop gradually and immediately apply his knowledge in practice. Information appears in the brain in certain portions, hav-ing received which, it can immediately switch to using the knowledge gained. Nat-urally, these portions cannot describe the whole variety of information, so such training will constantly make random deviations from training based on complete information. But this turns out to be not even bad: if the portion of information (sample) has small deviations, then they will not allow to leave the region of the global minimum of error (corresponding to complete information), but at the same time they will help to leave the region of local minimums. 
 In the field of artificial neural networks, this approach is called Small Batch Training, and its effectiveness is well described in the article. It also indicates that it is optimal to take a sample with sizes ranging from m = 2 to m = 32. In other words, even m = 2 may turn out to be the most effective option for a specific problem.
