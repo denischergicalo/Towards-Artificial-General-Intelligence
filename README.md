@@ -31,8 +31,8 @@ Scientists are constantly improving old models, combining methods, experi-mentin
 
 ## The Parallel Path of Smart Technologies and the Recreating of Biological Processes
 
-Srivastava N, Hinton G, Krizhevsky A et al. (2014) Dropout: a simple way to prevent neural
-networks from overfitting. J Mach Learn Res 15 (1):1929–1958
+[Srivastava N, Hinton G, Krizhevsky A et al. (2014) Dropout: a simple way to prevent neural
+networks from overfitting. J Mach Learn Res 15 (1):1929–1958](https://dl.acm.org/doi/10.5555/2627435.2670313)
 | Применение | плюсы | минусы |
 |----------------|:---------:|----------------:|
 | отсеивание 20% - 30% нейронов|  Эффективность редко понижаеться и достаточно хорошо повышаеться| При сильном переобучении может не дать оптимальный результат |
