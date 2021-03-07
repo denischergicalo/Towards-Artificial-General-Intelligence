@@ -1,6 +1,6 @@
 | title | description | author |
 |--------------------------------|:--------------------------------:|--------------------------------:|
-| Biomorphic AI|  In this chapter, we look at current advances in AI development and their biological implications. I believe that in this way it will be possible not only to convey information more easily, but also to give a lot of ideas on how to improve modern algorithms. | CHERHYKALO DENYS |
+| Biomorphic AI|  In this chapter, we look at current advances in AI development and their biological implications. I believe that in this way it will be possible not only to convey information more easily, but also to give a lot of ideas on how to improve modern algorithms and it will be possible to achieve strong AI. | CHERHYKALO DENYS |
 
 # Biomorphic AI
 
@@ -20,12 +20,6 @@ denischergicalo@gmail.com
 | Расмотрение несколько вариантов вычислительного упрощения изначального алгоритма соблюдая соответствие биологическим корням|  Потенциальное увеличение эффективности| Возможное сужение области применения |
 | Расмотрение нескольких вариантов как сделать алгоритм более подходящим к биологическим корням | возможность моделирования некоторых биологических процесов; Улучшение адаптивности алгоритма к «природным» данным | Возможное понижение эффективности |
 
-
-## Abstract. 
-
-In this chapter, we will consider modern advances in the field of AI develop-ment and their biological meaning. Critical cell reconstruction of the brain by the BlueBrain project is criticized. The direct presentation of some methods of AI as biological processes is also formulated, which, possibly, will make it possible in the future to improve these methods, or to make standard those modifications of which we will discuss. Using the terms of teaching neural networks, the teacher expresses the complex internal mechanisms of intuition and unconscious infor-mation processing. In addition, as a “game with reality” according to the Monte Carlo method, conscious thinking is modeled, including common sense and plan-ning. Based on the conducted analogies, improvements in AI are proposed that will make the complexity of his thinking similar in complexity to human and lead to the creation of a strong AI.
-
-Keywords: Artificial Intelligence, Biomorphic AI, Artificial Intuition, Strong AI.
 
 ## Setting the scene
 Artificial intelligence technologies are increasingly moving away from where they started — from modeling human behavior. Currently, quite a few people use processes associated with neural networks of the brain to implement software, and all funding depends on the specific tasks performed on time.
