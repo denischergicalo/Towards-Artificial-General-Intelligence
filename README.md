@@ -38,6 +38,9 @@ networks from overfitting. J Mach Learn Res 15 (1):1929–1958](https://dl.acm.o
 
 As is well known, neural networks have recently undergone a period of inten-sive development. There are many intriguing parallels between artificial and natu-ral neural networks. An interesting example is dropout algorithm — random re-moval of neurons in an artificial neural network that helps to make the neural network more stable and reduces overfitting on the available data. The authors of that papers note that neurons during the dropout process can be compared with genes during sexual reproduction — only a certain part of them is realized in the descendant. Therefore, if an individual possessed good features, but these fea-tures were determined by a large set of genes, in other words, a whole large co-adaptation of genes, then this set is very likely to be passed on to the next genera-tion due to the random nature of their transmission, therefore only genes that themselves remain in nature benefit, or small sets of such genes.
 
+additional literature:
+[H. Y. Xiong, Y. Barash, and B. J. Frey. Bayesian prediction of tissue-regulated splicing using RNA sequence and cellular context. Bioinformatics, 27(18):2554-2562, 2011.](https://academic.oup.com/bioinformatics/article/27/18/2554/182135)
+
 [Masters D, Luschi C (2018) Revisiting small batch training for deep neural networks](https://arxiv.org/pdf/1804.07612.pdf)
 | Применение | плюсы | минусы |
 |--------------------------------|:--------------------------------:|--------------------------------:|
@@ -94,6 +97,10 @@ We believe that transferring the useful properties of natural neural networks to
 It seems to us that the study of such computer models will help not only to create AI, but to simulate various brain diseases and to study their effect on AI, which may prompt researchers to solve real medical problems with the brain by studying them on the models.
 Another example of the Recursive Cortical Network, mentioned earlier, made it possible to correctly guess Captha in 66.6% of cases, and after determining the style and additional training — 90%. Moreover, this network uses only 5000 ex-amples of resolved examples and a small number of layers. It simulates the work of the primary visual cortex. A description of the work and experiments with this neural network is given in this paper. What we called the connection with more distant neurons in this article is called the lateral connection..
 
+additional literature:
+[D. Kersten, A. Yuille, Bayesian models of object perception. Curr. Opin. Neurobiol. 13, 150–158 (2003).](https://pubmed.ncbi.nlm.nih.gov/12744967/)
+[B. A. Olshausen, C. H. Anderson, D. C. Van Essen, A neurobiological model of visual attention and invariant pattern recognition based on dynamic routing of information. J. Neurosci. 13, 4700–4719 (1993).](https://www.jneurosci.org/content/13/11/4700.short)
+[D. George, J. Hawkins, Towards a mathematical theory of cortical micro-circuits. PLOS Comput. Biol. 5, e1000532 (2009).](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000532)
 
 ## Overview of basic algorithms for AI and their achievements 
 
@@ -105,7 +112,7 @@ AlphaGo Zero
 The next version of the AlphaGo program, AlphaGo Zero, learned to train its intuition not on examples of other people's games, but on examples of games with itself. This not only saved it from dependence on external data, but also sig-nificantly improved the program. 
 
 
-AlphaZero
+[D. Silver, T. Hubert, J. Schrittwieser, I. Antonoglou, M. Lai, A. Guez, M. Lanctot, L. Sifre, D. Kumaran, T. Graepel et al., “Mastering chess and shogi by self-play with a general reinforcement learning algorithm,” arXiv preprint arXiv:1712.01815, 2017.](https://arxiv.org/abs/1712.01815)
 | Применение | плюсы | минусы |
 |--------------------------------|:--------------------------------:|--------------------------------:|
 | Самообучение техникам в настольных играх| выводит новые техники игры на которых могут поучиться люди| Сложность восприятие техник для непрофесионалов |
