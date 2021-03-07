@@ -40,8 +40,7 @@ networks from overfitting. J Mach Learn Res 15 (1):1929–1958](https://dl.acm.o
 
 As is well known, neural networks have recently undergone a period of inten-sive development. There are many intriguing parallels between artificial and natu-ral neural networks. An interesting example is dropout algorithm — random re-moval of neurons in an artificial neural network that helps to make the neural network more stable and reduces overfitting on the available data. The authors of that papers note that neurons during the dropout process can be compared with genes during sexual reproduction — only a certain part of them is realized in the descendant. Therefore, if an individual possessed good features, but these fea-tures were determined by a large set of genes, in other words, a whole large co-adaptation of genes, then this set is very likely to be passed on to the next genera-tion due to the random nature of their transmission, therefore only genes that themselves remain in nature benefit, or small sets of such genes.
 
-Masters D, Luschi C (2018) Revisiting small batch training for deep neural networks.
-https://arxiv.org/pdf/1804.07612.pdf . Accessed at 22 February, 2020.
+[Masters D, Luschi C (2018) Revisiting small batch training for deep neural networks](https://arxiv.org/pdf/1804.07612.pdf)
 | Применение | плюсы | минусы |
 |----------------|:---------:|----------------:|
 | Виборка из 2-4 екземпляров| Иногда может дать более обобщеный; Устойчивый результат сравнительно с другими вариантами использования| Большее увеличение времени на эпоху; Риск получения неудволетворительного результата |
@@ -56,8 +55,8 @@ These two problems are partially resolved, which we will discuss later in the su
 It is worth noting that convolutional neural networks are also quite close to real analysis in the human brain, although the biological implementation of filters that emit abstract objects is rather complicated. It is carried out not only through gen-eral training of the entire network (based on internal rewards for good work), but so that similar filters are applied at different places in the layer, self-organization within each layer is applied. If you create an AI model, then you need to develop a similar process of self-organization, so as not to reduce everything to a fixed set of filters. Therefore, as an approximation to real AI, we will use a conventional convolutional neural network, which will immediately train a finite number of fil-ters over the entire area.
 
 
-Girshick R (2015) Fast R-CNN. In: The IEEE International Conference on Computer Vision
-(ICCV), pp. 1440–1448.
+[Girshick R (2015) Fast R-CNN. In: The IEEE International Conference on Computer Vision
+(ICCV), pp. 1440–1448.](https://arxiv.org/abs/1504.08083)
 
 общие минусы: не самый быстрый метод, сложная архитектура(сложнее обучать вместе с другими нейросетями)
 | Применение | плюсы | минусы |
@@ -69,9 +68,9 @@ Girshick R (2015) Fast R-CNN. In: The IEEE International Conference on Computer 
 But for a person’s hearing and vision, different architectures are provided. On one hand, hearing is a sequential model of neural networks that leads from sen-sors to the analysis of complex sound signals and words, on other hand vision is divided into two directions: one leads to an analysis of the image itself, and the other leads to location where this image is.
 This is fully consistent with the architecture this of one of the main neural net-work architectures for image detection.
 
-Ren S, He K, Girshick R, Sun J (2015) Faster R-CNN: Towards Real-Time Object Detection
+[Ren S, He K, Girshick R, Sun J (2015) Faster R-CNN: Towards Real-Time Object Detection
 with Region Proposal Networks. In: Advances in neural information processing systems, pp.
-91–99.
+91–99.](https://arxiv.org/pdf/1506.01497.pdf)
 
 общие минусы: немного сложная архитектура(немного сложнее обучать вместе с другими нейросетями)
 | Применение | плюсы | минусы |
@@ -83,8 +82,8 @@ with Region Proposal Networks. In: Advances in neural information processing sys
 A similar process always occurs in a person, when he, analyzing the image, can focus attention on only one thing. This process is closer to another of the main neural network architectures for pattern detection.
 
 
-George D et al. (2017) A generative vision model that trains with high data efficiency and breaks
-text-based CAPTCHAs. Science, 358(6368), art. no. eaag2612.
+[George D et al. (2017) A generative vision model that trains with high data efficiency and breaks
+text-based CAPTCHAs. Science, 358(6368), art. no. eaag2612.](https://science.sciencemag.org/content/358/6368/eaag2612.full?ijkey=DmvGldXIEXVoQ&keytype=ref&siteid=sci)
 | Применение | плюсы | минусы |
 |----------------|:---------:|----------------:|
 | Определение иерархии обьектов| работает достаточно хорошо| слишком долго работает из-за чего пока неэффективно применять к реальным изображениям |
@@ -119,8 +118,8 @@ AlphaZero is a program that, learning from scratch, has won all the people and t
 AlphaZero program can in a matter of hours learn to play any game and become the best in it. It itself adapt to the game, which makes it quite flexible and easily customizable to different types of games.
 
 
-Beheshti Z et al. (2010) A Review of Emotional Learning And It’s Utilization in Control
-Engineering. Int. J. Advance. Soft Comput. Appl., 2(2):191–208.
+[Beheshti Z et al. (2010) A Review of Emotional Learning And It’s Utilization in Control
+Engineering. Int. J. Advance. Soft Comput. Appl., 2(2):191–208.](https://www.semanticscholar.org/paper/A-review-of-emotional-learning-and-it%27s-utilization-Beheshti-Hashim/ca26912ac89b2ebdf214083d72cfdccc903f0b6c)
 | Применение | плюсы | минусы |
 |----------------|:---------:|----------------:|
 | Симулирование живых существ| Хорошая для симулирования небольшой группы простых животных| со сложностями описывает поведение умных жывотных; вычислительно сложная для симуляции большого количества особей|
@@ -135,8 +134,7 @@ The most advanced of these models is the BELBIC model (Beheshti et al., 2010). I
 
 ## Общие принципы Proposed Architecture
 
-Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model 
-https://arxiv.org/pdf/1911.08265.pdf
+[Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model](https://arxiv.org/pdf/1911.08265.pdf)
 
 оющие минусы: нестабильное обучение, для того чтобы довести до найвисшего уровня уровня нужно чтобы был набор нейросетей-игроков повышающегося уровня сложности для того чтобы сама нейросеть смогла постепенно выиигрывая одного за другим дойти до пика возможного уровня
 | Применение | плюсы | минусы |
@@ -155,9 +153,9 @@ https://arxiv.org/pdf/1911.08265.pdf
 
 
 
-Zweig A, Weinshall D (2013) Hierarchical Regularization Cascade for Joint Learning. In:
+[Zweig A, Weinshall D (2013) Hierarchical Regularization Cascade for Joint Learning. In:
 Proceedings of the 30 th International Conference on Machine Learning, Atlanta, Georgia,
-USA, 2013.Part 2, pp. 1074–1082.
+USA, 2013.Part 2, pp. 1074–1082.](http://proceedings.mlr.press/v28/zweig13.html)
 | Применение | плюсы | минусы |
 |----------------|:---------:|----------------:|
 | Определение иерархии информации| предотвращает переобучение, выделяет систему в информации| немного большее время, необходимость предворительной начальной группировке задач, субьективность выделяемой иерархии отношений|
@@ -165,7 +163,7 @@ USA, 2013.Part 2, pp. 1074–1082.
 
 Описанный выше подход может найти полезные применения в области многозадачного обучения. Задачи обычно связаны друг с другом  - и объ-единяются в иерархию, подобный подход может дать большое улучшение. 
 
-Jawanpuria, P., & Saketha Nath, J., (2012) A Convex Feature Learning Formulation for Latent Task Structure Discovery. http://icml.cc/2012/papers/90.pdf
+[Jawanpuria, P., & Saketha Nath, J., (2012) A Convex Feature Learning Formulation for Latent Task Structure Discovery.](https://arxiv.org/abs/1206.4611)
 | Применение | плюсы | минусы |
 |----------------|:---------:|----------------:|
 | Определение иерархии информации| предотвращает переобучение, полностью самостоятельно выделяет систему в информации| большее время, субьективность выделяемой иерархии отношений|
@@ -173,9 +171,9 @@ Jawanpuria, P., & Saketha Nath, J., (2012) A Convex Feature Learning Formulation
 
 Даже если какую-то широкую тему не удается разбить на подразделы – задачи в рамках этой темы бессвязны относительно друг друга, в случае связанности она при правильном выделении структуры подзадач может разбиться.
 
-Romera-Paredes et al. (2012) Exploiting Unrelated Tasks in Multi-Task Learning. Proceedings
+[Romera-Paredes et al. (2012) Exploiting Unrelated Tasks in Multi-Task Learning. Proceedings
 of the Fifteenth International Conference on Artificial Intelligence and Statistics, PMLR
-22:951-959
+22:951-959](http://proceedings.mlr.press/v22/romera12.html)
 | Применение | плюсы | минусы |
 |----------------|:---------:|----------------:|
 | Взаимное улучшение качеств существующих нейросетей | Повышение стабильности, возможное повышение эффективности| Из-за штрафов на задачи разных груп, сильные взаимосвязи между групами задач могут нарушить работу алгоритма |
@@ -183,7 +181,7 @@ of the Fifteenth International Conference on Artificial Intelligence and Statist
 
 то даже в этом случае можно все равно получить хорошое улучшение общего обучения по сравнению с отдельным обучением для каждой задачи, как причину этого можно назвать более хорошие выделение абстрактного навыка анализировать который уже при различных умениях по разному актуализируется.
 
-Argote L and Ingram P (2000). Knowledge transfer: A Basis for Competitive Advantage in
-Firms . Organizational Behavior and Human Decision Processes. 82(1):150–169.
+[Argote L and Ingram P (2000). Knowledge transfer: A Basis for Competitive Advantage in
+Firms . Organizational Behavior and Human Decision Processes. 82(1):150–169.](https://www.semanticscholar.org/paper/KNOWLEDGE-TRANSFER%3A-A-BASIS-FOR-COMPETITIVE-IN-Argote-Ingram/569be08541dfb886956cca4e7c365dbc215c9546)
 
  Когда выделяется новое применение навыка(когда старые применения на нужную деятельность уже не работают эффективно) - то начинается определяться новое умение основанное на этом навыке - что можно рассмотреть как Transfer of knowledge когда область применения нового навыка схожая с той что была раньше  - то тогда используется близкое умение - но для которого делают слой интра-претации,  и это тоже можно рассмотреть как  вариант Transfer of knowledge. И как уже было сказано оба эти варианта взаимно дополняют друг друга.
