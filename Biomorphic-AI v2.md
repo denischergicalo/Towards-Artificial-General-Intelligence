@@ -21,14 +21,9 @@ denischergicalo@gmail.com
 | Расмотрение нескольких вариантов как сделать алгоритм более подходящим к биологическим корням | возможность моделирования некоторых биологических процесов; Улучшение адаптивности алгоритма к «природным» данным | Возможное понижение эффективности |
 
 
-## Setting the scene
-Artificial intelligence technologies are increasingly moving away from where they started — from modeling human behavior. Currently, quite a few people use processes associated with neural networks of the brain to implement software, and all funding depends on the specific tasks performed on time.
-If to take into account the generally accepted point of view “Everything is complicated,” as well as bitter experience in this area (for example, two AI win-ters), then we have no choice but to accept status quo, and slowly make small steps improving existing algorithms in order to increase profit for various compa-nies by increasing the accuracy of methods.
-But is the brain really so complex to simulate it as a black box? Below we de-scribe what technologies applicable to create humanoid AI have appeared recent-ly. But before that, we emphasize that the practical ideas of AI undergo the same evolution as the behavior and brain of animals.
-Scientists are constantly improving old models, combining methods, experi-menting with their models, choosing the best ones, and when it comes to practice, those models are selected that are best suited for specific tasks, finding their niche, so AI ideas have even more similarities with biology than the researchers them-selves might suppose at first glance. In the next subsection, “The Parallel Path of Smart Technologies and the Recreating of Biological Processes,” we will discuss just that.
+## Smart technologies and recreation of biological processes
 
-## The Parallel Path of Smart Technologies and the Recreating of Biological Processes
-
+### Dropout
 [Srivastava N, Hinton G, Krizhevsky A et al. (2014) Dropout: a simple way to prevent neural
 networks from overfitting. J Mach Learn Res 15 (1):1929–1958](https://dl.acm.org/doi/10.5555/2627435.2670313)
 | Применение | плюсы | минусы |
@@ -43,7 +38,7 @@ additional literature:
 [H. Y. Xiong, Y. Barash, and B. J. Frey. Bayesian prediction of tissue-regulated splicing using RNA sequence and cellular context. Bioinformatics, 27(18):2554-2562, 2011.](https://academic.oup.com/bioinformatics/article/27/18/2554/182135)
 
 
-
+### Small batch training
 [Masters D, Luschi C (2018) Revisiting small batch training for deep neural networks](https://arxiv.org/pdf/1804.07612.pdf)
 | Применение | плюсы | минусы |
 |--------------------------------|:--------------------------------:|--------------------------------:|
@@ -58,7 +53,7 @@ In addition, new information or a tactical move made by a person is not al-ways 
 These two problems are partially resolved, which we will discuss later in the subsection “AlphaZero ideas as a basis for the AI algorithm”.
 It is worth noting that convolutional neural networks are also quite close to real analysis in the human brain, although the biological implementation of filters that emit abstract objects is rather complicated. It is carried out not only through gen-eral training of the entire network (based on internal rewards for good work), but so that similar filters are applied at different places in the layer, self-organization within each layer is applied. If you create an AI model, then you need to develop a similar process of self-organization, so as not to reduce everything to a fixed set of filters. Therefore, as an approximation to real AI, we will use a conventional convolutional neural network, which will immediately train a finite number of fil-ters over the entire area.
 
-
+### Fast R-CNN
 [Girshick R (2015) Fast R-CNN. In: The IEEE International Conference on Computer Vision
 (ICCV), pp. 1440–1448.](https://arxiv.org/abs/1504.08083)
 
@@ -72,6 +67,7 @@ It is worth noting that convolutional neural networks are also quite close to re
 But for a person’s hearing and vision, different architectures are provided. On one hand, hearing is a sequential model of neural networks that leads from sen-sors to the analysis of complex sound signals and words, on other hand vision is divided into two directions: one leads to an analysis of the image itself, and the other leads to location where this image is.
 This is fully consistent with the architecture this of one of the main neural net-work architectures for image detection.
 
+### Faster R-CNN
 [Ren S, He K, Girshick R, Sun J (2015) Faster R-CNN: Towards Real-Time Object Detection
 with Region Proposal Networks. In: Advances in neural information processing systems, pp.
 91–99.](https://arxiv.org/pdf/1506.01497.pdf)
@@ -86,6 +82,7 @@ with Region Proposal Networks. In: Advances in neural information processing sys
 A similar process always occurs in a person, when he, analyzing the image, can focus attention on only one thing. This process is closer to another of the main neural network architectures for pattern detection.
 
 
+### Recursive Cortical Network
 [George D et al. (2017) A generative vision model that trains with high data efficiency and breaks
 text-based CAPTCHAs. Science, 358(6368), art. no. eaag2612.](https://science.sciencemag.org/content/358/6368/eaag2612.full?ijkey=DmvGldXIEXVoQ&keytype=ref&siteid=sci)
 | Применение | плюсы | минусы |
@@ -94,7 +91,7 @@ text-based CAPTCHAs. Science, 358(6368), art. no. eaag2612.](https://science.sci
 | Распознавание обьектов системы обьектов | работает достаточно хорошо| работает только для системы простых обьектов |
 
 In addition, a person has his own maxpool layer, but it works harder than choosing a maximum from several neighbors. There is a choice from an object-oriented structure, due to which an unconscious understanding arises where to choose an object. This corresponds to the self-organization described above, only for significant correlations with more distant neurons. However, if this choice is correctly implemented programmatically, then the programs become more re-sistant to deformation and changes in the picture that they analyze.
-For example, Vicarious, an artificial intelligence company, has developed Re-cursive Cortical Network (RCN) technology for biologically plausible image anal-ysis. Their algorithm, unlike its predecessors, does not reduce accuracy when the text is deformed, and almost does not decrease when using various effects and styles to complicate the text and overlap it with other objects. This will be dis-cussed in more detail in the subsection “Overview of basic algorithms for AI and their achievements”.
+For example, Vicarious, an artificial intelligence company, has developed Recursive Cortical Network (RCN) technology for biologically plausible image anal-ysis. Their algorithm, unlike its predecessors, does not reduce accuracy when the text is deformed, and almost does not decrease when using various effects and styles to complicate the text and overlap it with other objects. This will be dis-cussed in more detail in the subsection “Overview of basic algorithms for AI and their achievements”.
 About primary treatment for vision, hearing, etc. we will tell in “Primary pro-cessing of sensory signals”.
 We believe that transferring the useful properties of natural neural networks to computer models is an optimal resource option, and we also assume that while maintaining the qualitative properties of the neural network, its other more com-plex properties are also preserved. Researchers have shown that RSN has many more complex properties that they consider to be similar to human ones.
 It seems to us that the study of such computer models will help not only to create AI, but to simulate various brain diseases and to study their effect on AI, which may prompt researchers to solve real medical problems with the brain by studying them on the models.
@@ -110,16 +107,10 @@ additional literature:
 
 
 
-## Overview of basic algorithms for AI and their achievements 
-
-AlphaGo was the first program to defeat the professional, and even the best player in Go. But it was un-usual only because of the convolutional neural network as a function of evaluat-ing and determining profitable moves. Its algorithm could be compared with an intuitive assessment of the situation on the board by a person, i.e. with his trained unconscious appreciation. In combination with the Monte Carlo method, this al-lows successfully simulating the game thinking of a person (we’ll talk about this in more detail in the subsection “AlphaZero Thedes as a Base for AI Algorithms”)
+## basic algorithms for a potential strong AI
 
 
-AlphaGo Zero
-
-The next version of the AlphaGo program, AlphaGo Zero, learned to train its intuition not on examples of other people's games, but on examples of games with itself. This not only saved it from dependence on external data, but also sig-nificantly improved the program. 
-
-
+### AlphaZero
 [D. Silver, T. Hubert, J. Schrittwieser, I. Antonoglou, M. Lai, A. Guez, M. Lanctot, L. Sifre, D. Kumaran, T. Graepel et al., “Mastering chess and shogi by self-play with a general reinforcement learning algorithm,” arXiv preprint arXiv:1712.01815, 2017.](https://arxiv.org/abs/1712.01815)
 | Применение | плюсы | минусы |
 |--------------------------------|:--------------------------------:|--------------------------------:|
@@ -127,10 +118,14 @@ The next version of the AlphaGo program, AlphaGo Zero, learned to train its intu
 | Обучение на играх которые симулируют полезные модели | может дать новые методы конкуренции и продвижения| методы сложно понять полностью |
 | Победы в играх | Опыт для чемпионов мира соревнования с очень сильным протвником, зрелищность на начальных этапах | После постоянных побед машин зрелищность падает |
 
+AlphaGo was the first program to defeat the professional, and even the best player in Go. But it was un-usual only because of the convolutional neural network as a function of evaluat-ing and determining profitable moves. Its algorithm could be compared with an intuitive assessment of the situation on the board by a person, i.e. with his trained unconscious appreciation. In combination with the Monte Carlo method, this al-lows successfully simulating the game thinking of a person (we’ll talk about this in more detail in the subsection “AlphaZero Thedes as a Base for AI Algorithms”)
+
+The next version of the AlphaGo program, AlphaGo Zero, learned to train its intuition not on examples of other people's games, but on examples of games with itself. This not only saved it from dependence on external data, but also sig-nificantly improved the program. 
+
 AlphaZero is a program that, learning from scratch, has won all the people and the rest of the algorithms in chess, segos and Go. Go’s game runs on board 1919 and generates a huge number of options. Conventional algorithms were powerless and reached the maximum level of average amateur in Go. 
 AlphaZero program can in a matter of hours learn to play any game and become the best in it. It itself adapt to the game, which makes it quite flexible and easily customizable to different types of games.
 
-
+### BELBIC (Brain Emotional Learning Based Intelligent Controller)
 [Beheshti Z et al. (2010) A Review of Emotional Learning And It’s Utilization in Control
 Engineering. Int. J. Advance. Soft Comput. Appl., 2(2):191–208.](https://www.semanticscholar.org/paper/A-review-of-emotional-learning-and-it%27s-utilization-Beheshti-Hashim/ca26912ac89b2ebdf214083d72cfdccc903f0b6c)
 | Применение | плюсы | минусы |
@@ -151,7 +146,7 @@ additional literature:
 
 
 
-## Общие принципы Proposed Architecture
+### MuZero
 
 [Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model](https://arxiv.org/pdf/1911.08265.pdf)
 
@@ -176,9 +171,11 @@ additional literature:
 
 [ M.H.S. Segler, et al. Learning to plan chemical syntheses ArXiv (2017)](https://arxiv.org/pdf/1708.04202.pdf)
 
+
 ## Multi-task learning
 
 
+###  Hierarchical Regularization Cascade
 
 [Zweig A, Weinshall D (2013) Hierarchical Regularization Cascade for Joint Learning. In:
 Proceedings of the 30 th International Conference on Machine Learning, Atlanta, Georgia,
@@ -189,6 +186,8 @@ USA, 2013.Part 2, pp. 1074–1082.](http://proceedings.mlr.press/v28/zweig13.htm
 | Взаимное улучшение качеств существующих нейросетей | Повышение стабильности, возможное повышение эффективности| необходимость найти нейросети обучение на схожых данных |
 
 Описанный выше подход может найти полезные применения в области многозадачного обучения. Задачи обычно связаны друг с другом  - и объ-единяются в иерархию, подобный подход может дать большое улучшение. 
+
+###  Convex Feature Learning
 
 [Jawanpuria, P., & Saketha Nath, J., (2012) A Convex Feature Learning Formulation for Latent Task Structure Discovery.](https://arxiv.org/abs/1206.4611)
 | Применение | плюсы | минусы |
@@ -202,6 +201,9 @@ additional literature:
 
 [Widmer, C., Toussaint, N., Altun, Y., and Ratsch, G. Inferring latent task structure for multi-task learning by multiple kernel learning. BMC Bioinformatics, 11:S5, 2010.](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-11-S8-S5)
 
+
+###  Exploiting Unrelated Tasks
+
 [Romera-Paredes et al. (2012) Exploiting Unrelated Tasks in Multi-Task Learning. Proceedings
 of the Fifteenth International Conference on Artificial Intelligence and Statistics, PMLR
 22:951-959](http://proceedings.mlr.press/v22/romera12.html)
@@ -211,8 +213,3 @@ of the Fifteenth International Conference on Artificial Intelligence and Statist
 
 
 то даже в этом случае можно все равно получить хорошое улучшение общего обучения по сравнению с отдельным обучением для каждой задачи, как причину этого можно назвать более хорошие выделение абстрактного навыка анализировать который уже при различных умениях по разному актуализируется.
-
-[Argote L and Ingram P (2000). Knowledge transfer: A Basis for Competitive Advantage in
-Firms . Organizational Behavior and Human Decision Processes. 82(1):150–169.](https://www.semanticscholar.org/paper/KNOWLEDGE-TRANSFER%3A-A-BASIS-FOR-COMPETITIVE-IN-Argote-Ingram/569be08541dfb886956cca4e7c365dbc215c9546)
-
- Когда выделяется новое применение навыка(когда старые применения на нужную деятельность уже не работают эффективно) - то начинается определяться новое умение основанное на этом навыке - что можно рассмотреть как Transfer of knowledge когда область применения нового навыка схожая с той что была раньше  - то тогда используется близкое умение - но для которого делают слой интра-претации,  и это тоже можно рассмотреть как  вариант Transfer of knowledge. И как уже было сказано оба эти варианта взаимно дополняют друг друга.
