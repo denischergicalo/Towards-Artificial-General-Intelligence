@@ -13,7 +13,7 @@ To demonstrate how this works, we will show a description of the positive applic
 
 Biomorphic AI
 | Application | pluses | cons |
-| -------------------------------- |: --------------- -----------------: | ------------------------------- -: |
+|--------------------------------|:--------------------------------:|--------------------------------:|
 | Consideration of several options for the computational simplification of the original algorithm, observing the correspondence to biological roots | Potential efficiency gains | Possible narrowing of the scope |
 | Consideration of several options for how to make the algorithm more suitable for biological roots | the ability to simulate some biological processes; Improving the adaptability of the algorithm to "natural" data | Potential degradation in efficiency |
 
