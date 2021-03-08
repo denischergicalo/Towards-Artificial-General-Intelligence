@@ -24,7 +24,7 @@ Biomorphic AI
 [Srivastava N, Hinton G, Krizhevsky A et al. (2014) Dropout: a simple way to prevent neural
 networks from overfitting. J Mach Learn Res 15 (1):1929–1958](https://dl.acm.org/doi/10.5555/2627435.2670313)
 | Application | pluses | cons |
-| -------------------------------- |: --------------- -----------------: | ------------------------------- -: |
+| -------------------------------- |:--------------------------------: | --------------------------------: |
 | Dropout 20% - 30% of neurons | Efficiency rarely decreases and rises well enough | With strong overfitting, it may not give an optimal result |
 | Dropout 30% - 50% of neurons | Can improve efficiency well with strong overfitting | Probability of a slight decrease in efficiency |
 
