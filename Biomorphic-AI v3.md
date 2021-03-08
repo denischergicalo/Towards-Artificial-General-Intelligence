@@ -11,7 +11,7 @@ The most effective AI techniques are effective simplification and modeling of pr
 But unfortunately, experts are often well versed in only a few models, they have only heard about the rest, from articles on other topics their eyes run up and they still grab only what concerns their topic.
 In order for everyone to be able to discover such a difficult topic as biomorphic AI, we offer a hierarchy format: topic -> article -> application -> pros and cons.
 
-To demonstrate how this works, we will show a description of the positive applications of linking algorithms with their btological roots.
+To demonstrate how this works, we will show a description of the positive applications of linking algorithms with their biological roots.
 
 Biomorphic AI
 | Application | pluses | cons |
