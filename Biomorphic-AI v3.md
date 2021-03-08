@@ -1,23 +1,22 @@
 ---
 title: Biomorphic AI
-description: In this chapter, we look at current advances in AI development and their biological implications. I believe that in this way it will be possible not only to convey information more easily, but also to give a lot of ideas on how to improve modern algorithms and it will be possible to achieve strong AI.
+description: In this chapter, we analyze current advances in AI development and their biological implications. I believe that it will be possible not only to convey information more easily, but also to create new ideas of improvement of modern algorithms using AI.
 author: CHERHYKALO DENYS
 ---
 
 # Biomorphic AI
 
-A person constantly learns from nature: genetic algorithms, algorithms of neural networks, swarm intelligence, etc.
-The most effective AI techniques are effective simplification and modeling of processes in nature.
-But unfortunately, experts are often well versed in only a few models, they have only heard about the rest, from articles on other topics their eyes run up and they still grab only what concerns their topic.
-In order for everyone to be able to discover such a difficult topic as biomorphic AI, we offer a hierarchy format: topic -> article -> application -> pros and cons.
-
+It’s known that a man has created many algorithms based on nature laws: genetic algorithms, algorithms of neural networks, swarm intelligence, etc.
+The most effective methods of AI are effective simplification and modeling of processes in nature.
+But, unfortunately, experts are often well versed in only a few models, when they read information from other articles they feel dizzy and they still remember only what is related to their topics.
+In order for everyone to be able to discover such a complex topic as biomorphic AI, we offer a hierarchy format: topic -> article -> application -> pros and cons.
 To demonstrate how this works, we will show a description of the positive applications of linking algorithms with their biological roots.
 
 Biomorphic AI
-| Application | pluses | cons |
+| Application | pros | cons |
 |--------------------------------|:--------------------------------:|--------------------------------:|
-| Consideration of several options for the computational simplification of the original algorithm, observing the correspondence to biological roots | Potential efficiency gains | Possible narrowing of the scope |
-| Consideration of several options for how to make the algorithm more suitable for biological roots | the ability to simulate some biological processes; Improving the adaptability of the algorithm to "natural" data | Potential degradation in efficiency |
+| Consideration of several options for computational simplification of the original algorithm in compliance with their biological basis | Potential efficiency gains |Narrowing of scope is possible |
+| Consideration of several options for how to make the algorithm more suitable for the biological basis | ability to model some biological processes; Improving the adaptability of the algorithm to "natural" data | Potential deterioration in efficiency |
 
 
 ## Smart technologies and recreation of biological processes
@@ -25,14 +24,13 @@ Biomorphic AI
 ### Dropout
 [Srivastava N, Hinton G, Krizhevsky A et al. (2014) Dropout: a simple way to prevent neural
 networks from overfitting. J Mach Learn Res 15 (1):1929–1958](https://dl.acm.org/doi/10.5555/2627435.2670313)
-| Application | pluses | cons |
+| Application | pros | cons |
 | -------------------------------- |:--------------------------------: | --------------------------------: |
-| Dropout 20% - 30% of neurons | Efficiency rarely decreases and rises well enough | With strong overfitting, it may not give an optimal result |
-| Dropout 30% - 50% of neurons | Can improve efficiency well with strong overfitting | Probability of a slight decrease in efficiency |
+| Dropout 20% - 30% of neurons | Efficiency rarely decreases and often rises | With strong overfitting, it may not give an optimal result |
+| Dropout 30% - 50% of neurons | Strong overfitting can improve efficiency | Probability of a slight decrease in efficiency |
 
-Many stable natural systems are based on unstable elements. One of these systems is our brain and its analysis based on the transmission of impulses between neurons.
-In order to adapt such systems, a dropout algorithm was invented - the accidental deletion of neurons in an artificial neural network or elements in any other similar system helps to make the system more stable and, in the case of artificial neural networks, reduces retraining with available data. The authors of this article compare the loss of neurons and the transfer of genes during sexual reproduction - only a certain part of them is realized in the offspring. Therefore, if an individual had good traits, but these traits were determined by a large set of genes, in other words, a whole large coadaptation of genes, then this set, most likely, will not be passed on to the next genera. Over many generations, the last generation will most likely contain only genes that themselves play a positive role for the individual, or small useful groups of genes.
-
+Many stable natural systems are based on unstable by themself elements. One of these systems is our brain and its work is based on the transmission of impulses between neurons.
+In order to adapt such systems, a dropout algorithm was invented - the accidental deletion of neurons in an artificial neural network or elements in any other similar system. It helps to make the system more stable and, in the case of artificial neural networks, reduces overfitting with available data. The authors of this article compare the loss of neurons with the transfer of genes during sexual reproduction, as in reproduction only a certain part of genes is realized in the offspring. Let’s suppose that an individual had good traits, but these traits were determined by a large set of genes, or, in other words, a whole large coadaptation of genes. Then this complete set of genes, most likely, will not be passed on to the next genera. For generations, the offspring would undoubtedly contain only genes that play a positive role for humans, or small useful groups of genes.
 Additional literature:
 
 [H. Y. Xiong, Y. Barash, and B. J. Frey. Bayesian prediction of tissue-regulated splicing using RNA sequence and cellular context. Bioinformatics, 27(18):2554-2562, 2011.](https://academic.oup.com/bioinformatics/article/27/18/2554/182135)
@@ -40,13 +38,13 @@ Additional literature:
 
 ### Small batch training
 [Masters D, Luschi C (2018) Revisiting small batch training for deep neural networks](https://arxiv.org/pdf/1804.07612.pdf)
-| Application | pluses | cons |
+| Application | pros | cons |
 | -------------------------------- |:--------------------------------: | --------------------------------: |
 | A selection of 2-4 examples | Sometimes it can be more generalized; Sustainable Performance Compared to Other Use Cases | Greater increase in time per epoch; The risk of getting an unsatisfactory result |
-| A selection of 4-16 examples | Usually has an optimum in learning time to convergence and an optimum in efficiency improvement | A slight increase in the time spent on the era |
+| A selection of 4-16 examples | Usually has an optimum in learning time to convergence and an optimum in efficiency improvement | A slight increase in the time spent per era |
 | A selection of 16+ examples | Less time per epoch; Sometimes, with not very sensitive data, it can give an optimal result | Less consistent result |
 
-Artificial neural networks, unlike humans, have the ability to study all various information simultaneously, without intermediate performance tests. A person psychologically cannot do this, he needs to apply the information he receives almost immediately. But this turns out to be even not bad: if the average indicators in a piece of information (sample) have small deviations from the global one, then they will not allow leaving the area of the global minimum error (corresponding to the complete information), but at the same time they will help to leave the area of local minima(which appear due to the presence of special noise in the input data).
+Artificial neural networks, unlike humans, have the ability to study all various information simultaneously, without intermediate performance tests. A person cannot do this, as he needs to apply the information he receives almost immediately. But this turns out to be even not bad: if the average indicators in a piece of information (sample) have small deviations from the global one, then they will not allow leaving the area of the global minimum error (corresponding to the complete information), but at the same time they will help to leave the area of local minima(which appear due to the presence of special noise in the input data).
 This approach is called Small Batch Training.
 For neural networks, it is optimal to choose from m = 2 to m = 32.
 Small Batch Training can be seen in all of our training: organizing lessons in schools;
