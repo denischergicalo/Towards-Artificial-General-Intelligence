@@ -31,7 +31,7 @@ networks from overfitting. J Mach Learn Res 15 (1):1929–1958](https://dl.acm.o
 Many stable natural systems are based on unstable elements. One of these systems is our brain and its analysis based on the transmission of impulses between neurons.
 In order to adapt such systems, a dropout algorithm was invented - the accidental deletion of neurons in an artificial neural network or elements in any other similar system helps to make the system more stable and, in the case of artificial neural networks, reduces retraining with available data. The authors of this article compare the loss of neurons and the transfer of genes during sexual reproduction - only a certain part of them is realized in the offspring. Therefore, if an individual had good traits, but these traits were determined by a large set of genes, in other words, a whole large coadaptation of genes, then this set, most likely, will not be passed on to the next genera. Over many generations, the last generation will most likely contain only genes that themselves play a positive role for the individual, or small useful groups of genes.
 
-additional literature:
+Additional literature:
 
 [H. Y. Xiong, Y. Barash, and B. J. Frey. Bayesian prediction of tissue-regulated splicing using RNA sequence and cellular context. Bioinformatics, 27(18):2554-2562, 2011.](https://academic.oup.com/bioinformatics/article/27/18/2554/182135)
 
@@ -94,7 +94,7 @@ The algorithm, unlike its predecessors, does not decrease the accuracy when defo
 
 Thanks to him, he allowed to correctly guess Captha in 66.6% of cases, and after determining the style and additional training - in 90% of cases. Moreover, this network uses only 5000 examples of solved captcha examples and a small number of layers. Simulates the work of the primary visual cortex. A description of the work and experiments with this neural network is given in this article. Uses lateral communication between neurons to reveal more flexible patterns in information.
 
-additional literature:
+Additional literature:
 
 [D. Kersten, A. Yuille, Bayesian models of object perception. Curr. Opin. Neurobiol. 13, 150–158 (2003).](https://pubmed.ncbi.nlm.nih.gov/12744967/)
 
@@ -137,7 +137,7 @@ Emotional brain training models are called BEL (Brain Emotional Learning) models
 The most advanced of these models is the BELBIC model,
 Such models themselves are interesting in that they simulate some part of the human limbic system and therefore can potentially have some similar internal rhythms, etc., but besides this, it is also a computationally efficient model for regulating the parameters of your control of drones and other equipment.
 
-additional literature:
+Additional literature:
 
 [D. Shahmirzadi, Computational Modeling Of The Brain Limbic System And Its Application In Control Engineering, Master dissertation, Texas A&M University, U.S.A. , (2005).](http://i-csrs.org/Volumes/ijasca/vol.2/vol.2.2.3.July.10.pdf)
 
@@ -165,7 +165,7 @@ In order to understand what MuZero is, read about AlphaZero.
 MuZero, unlike AlphaZero, is not tied to what data is submitted for input, MuZero must learn to compress information himself, this information is, relatively speaking, a subjective vision of reality by an algorithm.
 This view of reality be in the hidden state - we can say that this is the digital equivalent of the hippocampus in humans.
 
-additional literature:
+Additional literature:
 
 [Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Andrei A Rusu, Joel Veness, Marc G Bellemare, Alex Graves, Martin Riedmiller, Andreas K Fidjeland, Georg Ostrovski, et al. Human-level control through deep reinforcement learning. Nature, 518(7540):529, 2015.](https://pubmed.ncbi.nlm.nih.gov/25719670/)
 
@@ -200,7 +200,7 @@ This algorithm tries to gradually select useful information on the basis of info
 
 Sometimes there is no clear hierarchy in task topics, but there are interdependencies. Trying to search for them and highlighting the graph, you can get your own subjective and effective hierarchy of task topics.
 
-additional literature:
+Additional literature:
 
 [Widmer, C., Toussaint, N., Altun, Y., and Ratsch, G. Inferring latent task structure for multi-task learning by multiple kernel learning. BMC Bioinformatics, 11:S5, 2010.](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-11-S8-S5)
 
