@@ -39,7 +39,7 @@ additional literature:
 ### Small batch training
 [Masters D, Luschi C (2018) Revisiting small batch training for deep neural networks](https://arxiv.org/pdf/1804.07612.pdf)
 | Application | pluses | cons |
-| -------------------------------- |: --------------- -----------------: | ------------------------------- -: |
+| -------------------------------- |:--------------------------------: | --------------------------------: |
 | A selection of 2-4 examples | Sometimes it can be more generalized; Sustainable Performance Compared to Other Use Cases | Greater increase in time per epoch; The risk of getting an unsatisfactory result |
 | A selection of 4-16 examples | Usually has an optimum in learning time to convergence and an optimum in efficiency improvement | A slight increase in the time spent on the era |
 | A selection of 16+ examples | Less time per epoch; Sometimes, with not very sensitive data, it can give an optimal result | Less consistent result |
@@ -58,7 +58,7 @@ This one is very useful when there are random collective correlations in the dat
 
 general cons: not the fastest method, complex architecture (more difficult to train together with other neural networks)
 | Application | pluses | cons |
-| -------------------------------- |: --------------- -----------------: | ------------------------------- -: |
+| -------------------------------- |:--------------------------------: | --------------------------------: |
 | Localization of small objects | works well enough | |
 | Localization of Medium Objects | works well enough | |
 | Determining the boundaries of an object | works well enough | |
@@ -73,7 +73,7 @@ with Region Proposal Networks. In: Advances in neural information processing sys
 
 general cons: slightly complex architecture (slightly more difficult to train with other neural networks)
 | Application | pluses | cons |
-| -------------------------------- |: --------------- -----------------: | ------------------------------- -: |
+| -------------------------------- |:--------------------------------: | --------------------------------: |
 | Localization of small objects | | does not work very well |
 | Localization of Medium Objects | works well enough | |
 | Determining the boundaries of an object | | does not work very well |
@@ -86,7 +86,7 @@ This approach is closer to Faster R-CNN.
 [George D et al. (2017) A generative vision model that trains with high data efficiency and breaks
 text-based CAPTCHAs. Science, 358(6368), art. no. eaag2612.](https://science.sciencemag.org/content/358/6368/eaag2612.full?ijkey=DmvGldXIEXVoQ&keytype=ref&siteid=sci)
 | Application | pluses | cons |
-| -------------------------------- |: --------------- -----------------: | ------------------------------- -: |
+| -------------------------------- |:--------------------------------: | --------------------------------: |
 | Defining an Object Hierarchy | works well enough | works too long because of what it is ineffective to apply to real images |
 | Object Recognition of Object System | works well enough | works only for a system of simple objects |
 
@@ -110,7 +110,7 @@ additional literature:
 ### AlphaZero
 [D. Silver, T. Hubert, J. Schrittwieser, I. Antonoglou, M. Lai, A. Guez, M. Lanctot, L. Sifre, D. Kumaran, T. Graepel et al., “Mastering chess and shogi by self-play with a general reinforcement learning algorithm,” arXiv preprint arXiv:1712.01815, 2017.](https://arxiv.org/abs/1712.01815)
 | Application | pluses | cons |
-| -------------------------------- |: --------------- -----------------: | ------------------------------- -: |
+| -------------------------------- |:--------------------------------: | --------------------------------: |
 | Self-study of techniques in board games | brings out new playing techniques that people can learn from | The Difficulty of Perception Techniques for Non-Professionals |
 | Learning Games That Simulate Utility Models | can provide new methods of competition and promotion | methods are difficult to fully understand |
 | Games wins | Experience for world champions - competition with a very strong opponent, entertainment in the early stages | After the constant victories of cars, entertainment falls |
@@ -127,7 +127,7 @@ AlphaZero is a program that, learning from scratch, conquered all people and oth
 [Beheshti Z et al. (2010) A Review of Emotional Learning And It’s Utilization in Control
 Engineering. Int. J. Advance. Soft Comput. Appl., 2(2):191–208.](https://www.semanticscholar.org/paper/A-review-of-emotional-learning-and-it%27s-utilization-Beheshti-Hashim/ca26912ac89b2ebdf214083d72cfdccc903f0b6c)
 | Application | pluses | cons |
-| -------------------------------- |: --------------- -----------------: | ------------------------------- -: |
+| -------------------------------- |:--------------------------------: | --------------------------------: |
 | Simulating Living Creatures | Good for simulating a small group of simple animals | describes the behavior of smart animals with difficulty; computationally difficult to simulate a large number of individuals |
 | Emotion Modeling | Simulates the emotional reactions of animals and humans well | does not include planning for animals, let alone consciousness |
 | Dynamic adaptation | Computationally small model | The need to combine with more stable algorithms |
@@ -153,7 +153,7 @@ additional literature:
 
 general cons: unstable training, in order to bring the level to the highest level, it is necessary to have a set of neural networks-players of an increasing level of complexity in order for the neural network itself to be able to gradually win one by one to reach the peak of a possible level
 | Application | pluses | cons |
-| -------------------------------- |: --------------- -----------------: | ------------------------------- -: |
+| -------------------------------- |:--------------------------------: | --------------------------------: |
 | Self-study of techniques in any games | brings out new playing techniques that people can learn from | The Difficulty of Perception of Techniques for Non-Professionals |
 | Use to obtain new drugs in medicine | high speed of work | The need for security and risk control |
 | Use of computer or board games | Experience for world champions - competition with a very strong opponent, entertainment in the early stages | After the constant victories of cars, entertainment falls |
@@ -183,7 +183,7 @@ additional literature:
 Proceedings of the 30 th International Conference on Machine Learning, Atlanta, Georgia,
 USA, 2013.Part 2, pp. 1074–1082.](http://proceedings.mlr.press/v28/zweig13.html)
 | Application | pluses | cons |
-| -------------------------------- |: --------------- -----------------: | ------------------------------- -: |
+| -------------------------------- |:--------------------------------: | --------------------------------: |
 | Defining a Property Hierarchy | prevents retraining, highlights the system in information | a little more time, the need for a preliminary initial grouping of tasks, the subjectivity of the allocated hierarchy of relations |
 | Mutual improvement of the qualities of existing neural networks | Improved stability, potential efficiency gains | the need to find a neural network training on similar data |
 
@@ -194,7 +194,7 @@ This algorithm tries to gradually select useful information on the basis of info
 
 [Jawanpuria, P., & Saketha Nath, J., (2012) A Convex Feature Learning Formulation for Latent Task Structure Discovery.](https://arxiv.org/abs/1206.4611)
 | Application | pluses | cons |
-| -------------------------------- |: --------------- -----------------: | ------------------------------- -: |
+| -------------------------------- |:--------------------------------: | --------------------------------: |
 | Defining a Property Hierarchy | prevents retraining, completely independently selects the system in the information | more time, the subjectivity of the distinguished hierarchy of relations |
 | Separating Features in a Hierarchy | the presence of a clear graph indicating the hierarchy; The ability to effectively retrain the algorithm for a new distraction without rebuilding the hierarchy | Complexity of Effective Extension of the Algorithm for a Large Number of New Problems |
 
@@ -211,7 +211,7 @@ additional literature:
 of the Fifteenth International Conference on Artificial Intelligence and Statistics, PMLR
 22:951-959](http://proceedings.mlr.press/v22/romera12.html)
 | Application | pluses | cons |
-| -------------------------------- |: --------------- -----------------: | ------------------------------- -: |
+| -------------------------------- |:--------------------------------: | --------------------------------: |
 | Mutual improvement of the qualities of existing neural networks | Improved stability, potential efficiency gains | Due to penalties for tasks of different groups, strong interrelationships between task groups can disrupt the operation of the algorithm |
 
 
