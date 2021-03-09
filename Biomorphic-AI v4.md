@@ -175,6 +175,8 @@ Additional literature:
 
 [Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model](https://arxiv.org/pdf/1911.08265.pdf)
 
+![MuZero](images/MuZero.bmp)
+
 general cons: unstable training, in order to bring the level to the highest level, it is necessary to have a set of neural networks-players of an increasing level of complexity in order for the neural network itself to be able to gradually win one by one to reach the peak of a possible level
 | Application | pluses | cons |
 | -------------------------------- |:--------------------------------: | --------------------------------: |
