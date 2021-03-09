@@ -167,7 +167,7 @@ Additional literature:
 
 [J. Moren, C. Balkenius, "A Computational Model of Emotional Learning in the Amygdala", Cybernetics and Systems, Vol. 32, No. 6, (2000), pp. 611-636.](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.1.6046&rep=rep1&type=pdf)
 
-[Package with BELBIC controller for Autonomous Navigation of AR.Drone. Accessed at 22 February, 2020.](https://github.com/dvalenciar/BELBIC_Controller_ROS)
+[Package with BELBIC controller for Autonomous Navigation of AR.Drone. Github. Accessed at 22 February, 2020.](https://github.com/dvalenciar/BELBIC_Controller_ROS)
 
 
 
