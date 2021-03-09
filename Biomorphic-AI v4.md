@@ -34,6 +34,7 @@ networks from overfitting. J Mach Learn Res 15 (1):1929–1958](https://dl.acm.o
 
 Many stable natural systems are based on unstable by themself elements. One of these systems is our brain and its work is based on the transmission of impulses between neurons.
 In order to adapt such systems, a dropout algorithm was invented - the accidental deletion of neurons in an artificial neural network or elements in any other similar system. It helps to make the system more stable and, in the case of artificial neural networks, reduces overfitting with available data. The authors of this article compare the loss of neurons with the transfer of genes during sexual reproduction, as in reproduction only a certain part of genes is realized in the offspring. Let’s suppose that an individual had good traits, but these traits were determined by a large set of genes, or, in other words, a whole large coadaptation of genes. Then this complete set of genes, most likely, will not be passed on to the next genera. For generations, the offspring would undoubtedly contain only genes that play a positive role for humans, or small useful groups of genes.
+
 Additional literature:
 
 [H. Y. Xiong, Y. Barash, and B. J. Frey. Bayesian prediction of tissue-regulated splicing using RNA sequence and cellular context. Bioinformatics, 27(18):2554-2562, 2011.](https://academic.oup.com/bioinformatics/article/27/18/2554/182135)
@@ -41,6 +42,10 @@ Additional literature:
 
 ### Small batch training
 [Masters D, Luschi C (2018) Revisiting small batch training for deep neural networks](https://arxiv.org/pdf/1804.07612.pdf)
+
+![Small Batch](images/Small Batch.png)
+
+
 | Application | pros | cons |
 | -------------------------------- |:--------------------------------: | --------------------------------: |
 | A selection of 2-4 examples | Sometimes it can be more generalized; Sustainable Performance Compared to Other Use Cases | Greater increase in time per epoch; The risk of getting an unsatisfactory result |
