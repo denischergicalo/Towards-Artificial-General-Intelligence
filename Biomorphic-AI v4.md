@@ -9,7 +9,7 @@ author: CHERHYKALO DENYS
 It’s known that a man has created many algorithms based on nature laws: genetic algorithms, algorithms of neural networks, swarm intelligence, etc.
 The most effective methods of AI are effective simplification and modeling of processes in nature.
 But, unfortunately, experts are often well versed in only a few models, when they read information from other articles they feel dizzy and they still remember only what is related to their topics.
-In order for everyone to be able to discover such a complex topic as biomorphic AI, we offer a hierarchy format: topic -> article -> application -> pros and cons.
+In order for everyone to be able to discover such a complex topic as biomorphic AI, we offer a hierarchy format: topic → article → application → pros and cons.
 To demonstrate how this works, we will show a description of the positive applications of linking algorithms with their biological roots.
 
 Biomorphic AI
