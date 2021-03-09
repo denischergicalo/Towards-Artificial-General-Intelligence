@@ -147,6 +147,9 @@ AlphaZero is a program that, learning from scratch, conquered all people and oth
 ### BELBIC (Brain Emotional Learning Based Intelligent Controller)
 [Beheshti Z et al. (2010) A Review of Emotional Learning And It’s Utilization in Control
 Engineering. Int. J. Advance. Soft Comput. Appl., 2(2):191–208.](https://www.semanticscholar.org/paper/A-review-of-emotional-learning-and-it%27s-utilization-Beheshti-Hashim/ca26912ac89b2ebdf214083d72cfdccc903f0b6c)
+
+![BELBIC](images/BELBIC.png)
+
 | Application | pluses | cons |
 | -------------------------------- |:--------------------------------: | --------------------------------: |
 | Simulating Living Creatures | Good for simulating a small group of simple animals | describes the behavior of smart animals with difficulty; computationally difficult to simulate a large number of individuals |
