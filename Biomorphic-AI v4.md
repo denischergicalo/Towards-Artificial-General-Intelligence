@@ -135,7 +135,7 @@ Additional literature:
 
 In the beginning, there were algorithms that, according to some criteria, assessed the effectiveness of certain moves and thus determined the optimal one. To improve this estimate, a Monte Carlo tree algorithm was made - the algorithm, choosing randomly (but with preference for more optimal options), simulated several games by itself simultaneously determining which move would lead to a more optimal future and gradually building a tree from simple estimates of game positions (thus simulating human-like planning), this approach peaked at the level of the average go-lover.
 
-![Monte_Carlo_Tree_Searh](images/Monte_Carlo_Tree_Searh.jpg)
+![Monte_Carlo_Tree_Searh](images/Monte_Carlo_Tree_Searh.png)
 
 Replacing the assessment of the position, which was made on the basis of the subjective understanding of Go players, with the assessment that is made using a convolutional neural network (or rather, a residual neural network) in DeepMind, they received AlphaGo, which later defeated the best player in Go.
 
