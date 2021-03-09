@@ -97,6 +97,9 @@ This approach is closer to Faster R-CNN.
 ### Recursive Cortical Network
 [George D et al. (2017) A generative vision model that trains with high data efficiency and breaks
 text-based CAPTCHAs. Science, 358(6368), art. no. eaag2612.](https://science.sciencemag.org/content/358/6368/eaag2612.full?ijkey=DmvGldXIEXVoQ&keytype=ref&siteid=sci)
+
+![Recursive_Cortical_Network](images/Recursive_Cortical_Network.jpg)
+
 | Application | pluses | cons |
 | -------------------------------- |:--------------------------------: | --------------------------------: |
 | Defining an Object Hierarchy | works well enough | works too long because of what it is ineffective to apply to real images |
