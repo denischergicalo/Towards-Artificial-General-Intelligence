@@ -119,7 +119,7 @@ Additional literature:
 
 
 
-## basic algorithms for a potential strong AI
+## Basic algorithms for a potential strong AI
 
 
 ### AlphaZero
