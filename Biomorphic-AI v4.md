@@ -43,7 +43,7 @@ Additional literature:
 ### Small batch training
 [Masters D, Luschi C (2018) Revisiting small batch training for deep neural networks](https://arxiv.org/pdf/1804.07612.pdf)
 
-![Small Batch](images/Small Batch.png)
+![Small_Batch](images/Small_Batch.png)
 
 
 | Application | pros | cons |
