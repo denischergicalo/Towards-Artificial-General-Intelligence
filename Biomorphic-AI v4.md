@@ -64,6 +64,8 @@ This one is very useful when there are random collective correlations in the dat
 [Girshick R (2015) Fast R-CNN. In: The IEEE International Conference on Computer Vision
 (ICCV), pp. 1440–1448.](https://arxiv.org/abs/1504.08083)
 
+![Fast_R-CNN](images/Fast_R-CNN.bmp)
+
 general cons: not the fastest method, complex architecture (more difficult to train together with other neural networks)
 | Application | pluses | cons |
 | -------------------------------- |:--------------------------------: | --------------------------------: |
