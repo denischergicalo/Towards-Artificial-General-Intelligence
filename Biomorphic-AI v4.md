@@ -81,6 +81,8 @@ And now, moving away from the comparison and thinking about what is written, we 
 with Region Proposal Networks. In: Advances in neural information processing systems, pp.
 91–99.](https://arxiv.org/pdf/1506.01497.pdf)
 
+![Faster_R-CNN.bmp](images/Faster_R-CNN.bmp)
+
 general cons: slightly complex architecture (slightly more difficult to train with other neural networks)
 | Application | pluses | cons |
 | -------------------------------- |:--------------------------------: | --------------------------------: |
