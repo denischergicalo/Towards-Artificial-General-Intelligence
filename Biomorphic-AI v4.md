@@ -236,6 +236,9 @@ Additional literature:
 [Romera-Paredes et al. (2012) Exploiting Unrelated Tasks in Multi-Task Learning. Proceedings
 of the Fifteenth International Conference on Artificial Intelligence and Statistics, PMLR
 22:951-959](http://proceedings.mlr.press/v22/romera12.html)
+
+![Unrelated_Tasks](images/Unrelated_Tasks.bmp)
+
 | Application | pluses | cons |
 | -------------------------------- |:--------------------------------: | --------------------------------: |
 | Mutual improvement of the qualities of existing neural networks | Improved stability, potential efficiency gains | Due to penalties for tasks of different groups, strong interrelationships between task groups can disrupt the operation of the algorithm |
