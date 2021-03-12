@@ -50,14 +50,19 @@ Additional literature:
 | -------------------------------- |:--------------------------------: | --------------------------------: |
 | A selection of 2-4 examples | Sometimes it can be more generalized; Sustainable Performance Compared to Other Use Cases | Greater increase in time per epoch; The risk of getting an unsatisfactory result |
 | A selection of 4-16 examples | Usually has an optimum in learning time to convergence and an optimum in efficiency improvement | A slight increase in the time spent per era |
-| A selection of 16+ examples | Less time per epoch; Sometimes, with not very sensitive data, it can give an optimal result | Less consistent result |
+| A selection of 16+ examples | Less time per epoch; Sometimes, with not very sensitive data, it can give an optimal result | less stable result |
 
 Artificial neural networks, unlike humans, have the ability to study all various information simultaneously, without intermediate performance tests. A person cannot do this, as he needs to apply the information he receives almost immediately. But this turns out to be even not bad: if the average indicators in a piece of information (sample) have small deviations from the global one, then they will not allow leaving the area of the global minimum error (corresponding to the complete information), but at the same time they will help to leave the area of local minima(which appear due to the presence of special noise in the input data).
 This approach is called Small Batch Training.
+
 For neural networks, it is optimal to choose from m = 2 to m = 32.
-Small Batch Training can be seen in all of our training: organizing lessons in schools;
+
+Small Batch Training can be seen in all of our training: 
+
+organizing lessons in schools;
 lectures and practices at universities;
 online courses;
+
 This one is very useful when there are random collective correlations in the data.
 
 ### Fast R-CNN
@@ -103,7 +108,7 @@ text-based CAPTCHAs. Science, 358(6368), art. no. eaag2612.](https://science.sci
 | Application | pluses | cons |
 | -------------------------------- |:--------------------------------: | --------------------------------: |
 | Defining an Object Hierarchy | works well enough | works too long because of what it is ineffective to apply to real images |
-| Object Recognition of Object System | works well enough | works only for a system of simple objects |
+| Object recognition from the object system | works well enough | works only for a system of simple objects |
 
 The algorithm, unlike its predecessors, does not decrease the accuracy when deforming the text and almost does not decrease the accuracy when using various effects and styles to complicate the text and overlap it with other objects.
 
@@ -131,7 +136,7 @@ Additional literature:
 | -------------------------------- |:--------------------------------: | --------------------------------: |
 | Self-study of techniques in board games | brings out new playing techniques that people can learn from | The Difficulty of Perception Techniques for Non-Professionals |
 | Learning Games That Simulate Utility Models | can provide new methods of competition and promotion | methods are difficult to fully understand |
-| Games wins | Experience for world champions - competition with a very strong opponent, entertainment in the early stages | After the constant victories of cars, entertainment falls |
+| Games wins | Experience for world champions - competition with a very strong opponent, entertainment in the early stages | After constant victories AI entertainment falls |
 
 In the beginning, there were algorithms that, according to some criteria, assessed the effectiveness of certain moves and thus determined the optimal one. To improve this estimate, a Monte Carlo tree algorithm was made - the algorithm, choosing randomly (but with preference for more optimal options), simulated several games by itself simultaneously determining which move would lead to a more optimal future and gradually building a tree from simple estimates of game positions (thus simulating human-like planning), this approach peaked at the level of the average go-lover.
 
@@ -182,7 +187,7 @@ general cons: unstable training, in order to bring the level to the highest leve
 | -------------------------------- |:--------------------------------: | --------------------------------: |
 | Self-study of techniques in any games | brings out new playing techniques that people can learn from | The Difficulty of Perception of Techniques for Non-Professionals |
 | Use to obtain new drugs in medicine | high speed of work | The need for security and risk control |
-| Use of computer or board games | Experience for world champions - competition with a very strong opponent, entertainment in the early stages | After the constant victories of cars, entertainment falls |
+| Use of computer or board games | Experience for world champions - competition with a very strong opponent, entertainment in the early stages | After constant victories AI entertainment falls |
 | Simulation of Human Behavior | Teaches planning and learns to properly simplify your perception | The peculiarities of human emotions and behavior are not taken into account |
 | Simulating Other Utility Models | can provide new methods of competition and promotion | methods are difficult to fully understand |
 
@@ -241,7 +246,7 @@ of the Fifteenth International Conference on Artificial Intelligence and Statist
 
 | Application | pluses | cons |
 | -------------------------------- |:--------------------------------: | --------------------------------: |
-| Mutual improvement of the qualities of existing neural networks | Improved stability, potential efficiency gains | Due to penalties for tasks of different groups, strong interrelationships between task groups can disrupt the operation of the algorithm |
+| Mutual improvement of the qualities of existing neural networks | Improved stability, potential efficiency gains | Due to penalties for similarly solving problems from different groups, strong interrelationships between groups of problems can disrupt the algorithm |
 
 
 Sometimes in life we have to take on incoherent tasks, but by learning to plan and competently separate and organize our mental processes, we can potentially learn to solve our old tasks even more stably and efficiently.
