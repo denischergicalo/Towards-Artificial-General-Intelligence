@@ -24,15 +24,14 @@ One of the central themes of our exploration is Biomorphic AI. We draw inspirati
 
 ## Read the Full Article
 
-The complete article, delving into the intricacies of combining AI architectures and the potential it holds for AGI, can be found in the [article.md](article.md) file within this repository. We invite you to read the full article to gain a deeper understanding of our approach and the possibilities it presents.
+The complete article, delving into the intricacies of combining AI architectures and the potential it holds for AGI, can be found in the [Biomorphic-AI.md](Biomorphic-AI.md) file within this repository. We invite you to read the full article to gain a deeper understanding of our approach and the possibilities it presents.
 
-- [Read the Full Article](article.md)
+- [Read the Full Article(Spectra)](https://t.co/YDGnab42W4)
 
 ## Additional Resources
 
 For further reading and exploration of the concepts discussed in the article, you can refer to the following link:
 
-- [Biomorphic AI(Spectra)](https://t.co/YDGnab42W4)
 - [Biomorphic Artificial Intelligence: Achievements and Challenges](https://link.springer.com/chapter/10.1007/978-3-030-52067-0_24)
 - [Fundamental Fallacies in Definitions of Explainable AI: Explainable to Whom and Why?](https://link.springer.com/chapter/10.1007/978-3-031-12807-3_2)
 
